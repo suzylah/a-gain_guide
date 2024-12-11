@@ -1,0 +1,59 @@
+title: Knowledge
+
+icon: 📝
+
+status:
+  draft: true
+  unlisted:
+    label: Hidden Page
+    text: The page is not listed in the main menu
+  listed:
+    label: Menu Page
+    text: The page is listed in the main menu
+
+columns:
+  - width: 1/2
+    sections:
+      listed:
+        extends: sections/topics
+        label: Published
+        status: listed
+        size: small
+        layout: cards
+      drafts:
+        extends: sections/topics
+        label: Drafts
+        status: draft
+      unlisted:
+        extends: sections/topics
+        label: In Review
+        status: unlisted
+
+  - width: 1/2
+      
+    fields:
+      layout:
+        label: Layout
+        type: layout
+        layouts:
+          - "1/1"
+          - "1/2, 1/2"
+          - "1/4, 1/4, 1/4, 1/4"
+        fieldsets:
+          - heading
+          - text
+          - gallery
+          - againblock
+          - layout 
+        settings:
+          fields:
+            class:
+              type: text
+              width: 1/2
+            id:
+              type: text
+              width: 1/2
+            image:
+              label: Background image
+              type: files
+    

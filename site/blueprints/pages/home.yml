@@ -1,0 +1,35 @@
+title: Home
+icon: 🏠
+
+fields:
+  slider:
+    name: Hero Slider
+    type: structure
+    fields:
+      text:
+        label: Text
+        type: text
+  layout:
+    label: Layout
+    type: layout
+    layouts:
+      - "1/1"
+      - "1/2, 1/2"
+      - "1/4, 1/4, 1/4, 1/4"
+    fieldsets:
+      - heading
+      - text
+      - gallery
+      - againblock
+      - layout 
+    settings:
+      fields:
+        class:
+          type: text
+          width: 1/2
+        id:
+          type: text
+          width: 1/2
+        image:
+          label: Background image
+          type: files

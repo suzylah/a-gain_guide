@@ -1,0 +1,18 @@
+title: Map
+
+icon: 📝
+
+options:
+  changeSlug: false
+  delete: false
+
+preset: page
+
+fields:
+  stakeholders:
+    label: Import stakeholders GeoJSON file
+    type: files
+    translate: false
+    uploads:
+      template: json
+

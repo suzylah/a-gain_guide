@@ -1,0 +1,23 @@
+title: About
+icon: ☎️
+
+status:
+  draft: true
+  listed: true
+
+options:
+  changeSlug: false
+  delete: false
+
+tabs:
+  content:
+    icon: text
+    label: content
+    fields:
+      layout:
+        label: Layout
+        type: layout
+        layouts:
+          - "1/1"
+          - "1/2, 1/2"
+          - "1/4, 1/4, 1/4, 1/4"

@@ -1,0 +1,81 @@
+title: Reuse Matrix
+
+fields:
+  services:
+    name: Services
+    type: structure
+    fields:
+      name:
+        label: Name
+        type: text
+  offers:
+    name: Offers
+    type: structure
+    fields:
+      name:
+        label: Name
+        type: text
+  extras:
+    name: Extras
+    type: structure
+    fields:
+      name:
+        label: Name
+        type: text
+  optiongroup:
+    label: Group
+    type: structure
+    fields:
+      name:
+        label: Name
+        type: text
+      options:
+        label: Options
+        type: structure
+        fields:
+          name:
+            label: Name
+            type: text
+          optservices:
+            label: Services
+            type: multiselect
+            options: query
+            query:
+              fetch: page.services.toStructure
+              text: "{{ structureItem.name }}"
+              value: "{{ structureItem.name }}"
+          optoffers:
+            label: Offers
+            type: multiselect
+            options: query
+            query:
+              fetch: page.offers.toStructure
+              text: "{{ structureItem.name }}"
+              value: "{{ structureItem.name }}"
+          optextras:
+            label: Extras
+            type: multiselect
+            options: query
+            query:
+              fetch: page.extras.toStructure
+              text: "{{ structureItem.name }}"
+              value: "{{ structureItem.name }}"
+          servicetype:
+            label: Service Type
+            name: Service Type
+            type: multiselect
+            options:
+              offline: Offline
+              online: Online
+            width: 1/2
+          optdescription:
+            label: Description
+            type: writer
+            marks: 
+              - bold
+              - italic
+              - underline
+              - link
+            width: 1/2
+
+      

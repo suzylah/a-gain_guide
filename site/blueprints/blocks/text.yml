@@ -1,0 +1,35 @@
+name: field.blocks.text.name
+icon: text
+wysiwyg: true
+preview: text
+fields:
+  text:
+    type: writer
+    nodes: false
+    placeholder: field.blocks.text.placeholder
+  alignment:
+    type: select
+    label: Alignment
+    options:
+      left: Left
+      center: Center
+      right: Right
+      justify: Justify
+  background:
+    label: Background
+    type: select
+    placeholder: Auto
+    width: 1/2
+    options:
+      blue: "Blue"
+      purple: "Purple"
+      orange: "Orange"
+      yellow: "Yellow"
+      ochre: "Ochre"
+      grey: "Grey"
+      brightgreen: "Bright Green"
+      palegreen: "Pale Green"
+  class:
+    label: Class
+    type: text
+    width: 1/2

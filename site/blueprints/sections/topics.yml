@@ -1,0 +1,6 @@
+type: pages
+label: Topics
+parent: kirby.page("knowledge")
+info: "{{ page.published }}"
+template: topic
+empty: No topics yet

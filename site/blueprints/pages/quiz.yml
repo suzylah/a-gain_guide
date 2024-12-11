@@ -1,0 +1,124 @@
+title: Quiz-Questions
+
+icon: chat
+
+columns:
+  - width: 3/3
+    fields:
+      parts:
+        label: Quiz sections
+        type: structure
+        fields:
+          title:
+            label: Section title
+            type: text
+          description:
+            label: Description
+            type: text
+          description2:
+            label: Text
+            type: writer
+          background:
+            label: Background
+            type: select
+            options:
+              blue: "Blue"
+              purple: "Purple"
+              orange: "Orange"
+              yellow: "Yellow"
+              ochre: "Ochre"
+              grey: "Grey"
+          questions:
+            label: Questions
+            type: structure
+            fields:
+              question:
+                label: Question
+                type: text
+              shortname:
+                label: Short name
+                type: text
+              description:
+                label: Description
+                type: text
+              fieldtype:
+                label: Field type
+                type: select
+                options:
+                  multiselect: Multiselect
+                  select: Select
+                  range: Range
+                  unit: Number and unit
+                  locationfinder: Location finder
+              isrequired:
+                label: Mandatory question?
+                type: toggle
+                text:
+                  - "no"
+                  - "yes"
+              hasglossary:
+                label: Has glossary?
+                type: toggle
+                text:
+                  - "no"
+                  - "yes"
+              glossary:
+                type: writer
+                marks: 
+                  - bold
+                  - italic
+                  - underline
+                  - link
+                when:
+                  hasglossary: true
+              hasinlineglossary:
+                label: Has inline glossary?
+                type: toggle
+                text:
+                  - "no"
+                  - "yes"
+              isconditional:
+                label: Question is conditional?
+                type: toggle
+                text:
+                  - "no"
+                  - "yes"
+              dependson:
+                label: Depends on...
+                type: select
+                options: query
+                query: 
+                  fetch: site.find("reusematrix").optiongroup.toStructure
+                  text: "{{ structureItem.name }}"
+                  value: "{{ structureItem.name }}"
+                when:
+                  isconditional: true
+              options:
+                label: Options
+                type: structure
+                fields:
+                  option:
+                    label: Option
+                    type: text
+              choices:
+                label: Choices
+                type: select
+                options: query
+                query:
+                  fetch: site.find("reusematrix").optiongroup.toStructure
+                  text: "{{ structureItem.name }}"
+                  value: "{{ structureItem.name }}"
+      advicetext:
+        label: Good Advice
+        type: writer
+        width: 1/2
+      final:
+        label: Final screen
+        type: writer
+        width: 1/2
+      submittext:
+        label: Submit button label
+        type: text
+        width: 1/2
+
+    

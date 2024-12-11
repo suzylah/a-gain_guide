@@ -1,0 +1,67 @@
+name: Again Block
+icon: smile
+tabs:
+  content:
+    label: Content
+    fields:
+      poster:
+        type: files
+        query: page.images.template('poster')
+        uploads: poster
+        multiple: false
+        width: 1/2
+      title:
+        type: text
+        placeholder: Title
+      subtitle:
+        type: text
+        placeholder: Subtitle
+      description:
+        type: writer
+        icon: text
+        inline: true
+        placeholder: Description
+        marks:
+          - bold
+          - italic
+      button:
+        label: Button
+        type: structure
+        fields:
+          url:
+            label: URL
+            type: url
+          text:
+            label: Text
+            type: text
+          toggle:
+            label: Open in new tab?
+            type: toggle
+      customHTML:
+        label: Custom HTML
+        type: textarea
+      inlineBlocks:
+        type: blocks
+        label: Inline blocks
+
+  settings:
+    label: Settings
+    fields:
+      background:
+        label: Background
+        type: select
+        placeholder: Auto
+        width: 1/2
+        options:
+          blue: "Blue"
+          purple: "Purple"
+          orange: "Orange"
+          yellow: "Yellow"
+          ochre: "Ochre"
+          grey: "Grey"
+          brightgreen: "Bright Green"
+          palegreen: "Pale Green"
+      class:
+        label: Class
+        type: text
+        width: 1/2
