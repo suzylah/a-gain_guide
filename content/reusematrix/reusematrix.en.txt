@@ -1,0 +1,955 @@
+Title: ReuseMatrix
+
+----
+
+Services:
+
+- 
+  name: Alteration Shop
+- 
+  name: 'Leather & Fur Work'
+- 
+  name: Bag Repair
+- 
+  name: Shoe Repair
+- 
+  name: Shoe Cleaning
+- 
+  name: Sustainable Textile Cleaning
+- 
+  name: Brand with Take-Back Service
+- 
+  name: Brand with Repair Service
+- 
+  name: Recycling/Upcycling Brand
+- 
+  name: Recycling/Upcycling Service
+- 
+  name: Recycling/Upcycling Workshops
+- 
+  name: 'Repairing & Sewing Café'
+- 
+  name: Second-Hand Shop
+- 
+  name: Vintage Shop
+- 
+  name: 'Fleamarket & Pop-Up Events'
+- 
+  name: Clothes Swap
+- 
+  name: Rental Service
+- 
+  name: Clothes Container
+- 
+  name: 'Clothing & Shoe Donations'
+- 
+  name: Other Textile Donations
+- 
+  name: Remnant Material Warehouse
+- 
+  name: Textile Recycling Company
+- 
+  name: Wardrobe Styling
+
+----
+
+Offers:
+
+- 
+  name: Accept clothes
+- 
+  name: Accept shoes
+- 
+  name: Accept leftover fabrics
+- 
+  name: Accept other textiles
+- 
+  name: Accept sewing supplies
+- 
+  name: Accept accessoires
+- 
+  name: Sale of leftover fabrics
+- 
+  name: Sale of sewing supplies
+- 
+  name: Textile sorting
+- 
+  name: Textile recycling
+- 
+  name: Sale/Export
+- 
+  name: Open workshop
+- 
+  name: Repair Workshops
+- 
+  name: Upcycling Workshops
+- 
+  name: Recycling Workshops
+- 
+  name: Offer take-back service
+- 
+  name: DIY-Sets/Tutorials
+- 
+  name: Alterations
+- 
+  name: Repairs (Textiles)
+- 
+  name: Invisible Mending
+- 
+  name: Patches
+- 
+  name: Embroidery
+- 
+  name: Leather repair
+- 
+  name: Leather cleaning
+- 
+  name: Leather alterations
+- 
+  name: Shoe repair
+- 
+  name: Re-dyeing/Re-colouring
+- 
+  name: Upcycling collections
+- 
+  name: Tailor-made upcycling products
+- 
+  name: Recycling of used textiles
+
+----
+
+Extras:
+
+- 
+  name: For Charitable or Non-Profit purposes
+- 
+  name: For art and culture projects
+- 
+  name: Only accept large textile quantities
+- 
+  name: Only accept seasonal clothing
+- 
+  name: 'Only clothing & shoes for people in need'
+
+----
+
+Optiongroup:
+
+- 
+  name: Service Category
+  options:
+    - 
+      name: Re-style my wardrobe
+      optservices: Wardrobe Styling
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "22"
+      offers: ""
+      extras: ""
+    - 
+      name: Repair
+      optservices: 'Alteration Shop, Leather & Fur Work, Bag Repair, Shoe Repair, Brand with Repair Service, Repairing & Sewing Café, Recycling/Upcycling Service'
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 0, 1, 2, 3, 7, 11, 9
+      offers: ""
+      extras: ""
+    - 
+      name: Upcycle
+      optservices: 'Leather & Fur Work, Recycling/Upcycling Service, Recycling/Upcycling Workshops, Repairing & Sewing Café'
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 1, 9, 10, 11
+      offers: ""
+      extras: ""
+    - 
+      name: Sell
+      optservices: 'Second-Hand Shop, Vintage Shop, Fleamarket & Pop-Up Events'
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 12, 13, 14
+      offers: ""
+      extras: ""
+    - 
+      name: Rent out
+      optservices: Rental Service
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "16"
+      offers: ""
+      extras: ""
+    - 
+      name: Swap
+      optservices: Clothes Swap
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "15"
+      offers: ""
+      extras: ""
+    - 
+      name: Donate
+      optservices: 'Clothes Container, Clothing & Shoe Donations, Other Textile Donations, Textile Recycling Company, Remnant Material Warehouse'
+      optoffers: >
+        Accept clothes, Accept shoes, Accept
+        leftover fabrics, Accept other textiles,
+        Accept sewing supplies, Accept
+        accessoires
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 17, 18, 19, 20, 21
+      offers: 0, 1, 2, 3, 4
+      extras: ""
+    - 
+      name: Clean
+      optservices: >
+        Shoe Cleaning, Sustainable Textile
+        Cleaning
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 4, 5
+      offers: ""
+      extras: ""
+- 
+  name: Re-style my wardrobe
+  options:
+    - 
+      name: With tutorials
+      optservices: ""
+      optoffers: DIY-Sets/Tutorials
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "22"
+      offers: "16"
+      extras: ""
+    - 
+      name: With a wardrobe stylist
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "22"
+      offers: ""
+      extras: ""
+- 
+  name: Repair
+  options:
+    - 
+      name: With tutorials
+      optservices: ""
+      optoffers: DIY-Sets/Tutorials
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 0, 1, 2, 3, 7, 11, 9
+      offers: "16"
+      extras: ""
+    - 
+      name: In a sewing café
+      optservices: 'Repairing & Sewing Café'
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "11"
+      offers: "11"
+      extras: ""
+    - 
+      name: Through workshops
+      optservices: ""
+      optoffers: Repair Workshops
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 0, 11, 9
+      offers: "12"
+      extras: ""
+    - 
+      name: Through a service or a designer
+      optservices: ""
+      optoffers: >
+        Alterations, Repairs (Textiles),
+        Invisible Mending, Patches, Embroidery,
+        Leather repair, Leather alterations,
+        Shoe repair
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 0, 1, 2, 3, 7, 11
+      offers: 17, 18, 19, 20, 21, 22, 24, 25
+      extras: ""
+- 
+  name: Upcycle
+  options:
+    - 
+      name: With tutorials
+      optservices: 'Leather & Fur Work, Recycling/Upcycling Service, Recycling/Upcycling Workshops, Repairing & Sewing Café'
+      optoffers: DIY-Sets/Tutorials
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 1, 9, 10, 11
+      offers: "16"
+      extras: ""
+    - 
+      name: In a sewing café
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "11"
+      offers: "11"
+      extras: ""
+    - 
+      name: Through workshops
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 10, 11
+      offers: "13"
+      extras: ""
+    - 
+      name: Through a service or a designer
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 1, 9
+      offers: 17, 21, 24, 26, 28
+      extras: ""
+- 
+  name: Sell
+  options:
+    - 
+      name: Online
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: online
+      optdescription: ""
+    - 
+      name: Flea market
+      optservices: 'Fleamarket & Pop-Up Events'
+      optoffers: ""
+      optextras: ""
+      servicetype: offline
+      optdescription: ""
+    - 
+      name: Second-hand or vintage store
+      optservices: Second-Hand Shop, Vintage Shop
+      optoffers: ""
+      optextras: ""
+      servicetype: offline
+      optdescription: ""
+    - 
+      name: Online platform with pick-up service
+      optservices: Second-Hand Shop, Vintage Shop
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+- 
+  name: Rent out
+  options:
+    - 
+      name: Local rental shop
+      optservices: Rental Service
+      optoffers: ""
+      optextras: ""
+      servicetype: offline
+      optdescription: ""
+    - 
+      name: Online renting platform
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: online
+      optdescription: ""
+- 
+  name: Swap
+  options:
+    - 
+      name: Local swapping event
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: offline
+      optdescription: ""
+    - 
+      name: Online swapping services
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: offline
+      optdescription: ""
+- 
+  name: Donate
+  options:
+    - 
+      name: Second-Hand shop
+      optservices: Second-Hand Shop, Vintage Shop
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Charity / NGO
+      optservices: ""
+      optoffers: ""
+      optextras: For Charitable or Non-Profit purposes
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Upcycling designer or project
+      optservices: 'Recycling/Upcycling Brand, Recycling/Upcycling Service, Recycling/Upcycling Workshops, Repairing & Sewing Café'
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Material warehouse
+      optservices: Remnant Material Warehouse
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Online platform
+      optservices: 'Clothing & Shoe Donations, Other Textile Donations'
+      optoffers: ""
+      optextras: ""
+      servicetype: online
+      optdescription: ""
+    - 
+      name: Art or cultural projects
+      optservices: ""
+      optoffers: ""
+      optextras: For art and culture projects
+      servicetype: ""
+      optdescription: ""
+- 
+  name: Condition
+  options:
+    - 
+      name: New with hangtags
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>New with hang tags</h4><p>A new, never worn garment in top condition, with the hang tag still attached.</p><p></p>'
+    - 
+      name: New without hangtags
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>New without hang tags</h4><p>A new, never worn garment in top condition, without the hang tag.</p><p></p>'
+    - 
+      name: Very good
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Very good</h4><p>A rarely used garment with light signs of wear, but otherwise in top condition.</p><p></p>'
+    - 
+      name: Good
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Good</h4><p>A used garment with obvious signs of use.</p><p></p>'
+    - 
+      name: Acceptable
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Acceptable</h4><p>A used garment with obvious signs of use that clearly lower the quality.</p>'
+    - 
+      name: Defect or repairable
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Defect or repairable</h4><p>A used garment with obvious signs of use that clearly lower the quality and therefore needs fixing.</p><p></p>'
+    - 
+      name: Bad / dirty / irreparable
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Bad or dirty or irreparable</h4><p>A used garment with obvious signs of use that significantly lower the quality and is no longer wearable in its current condition.</p><p></p>'
+- 
+  name: Material
+  options:
+    - 
+      name: Leather
+      optservices: 'Leder- & Pelzarbeiten'
+      optoffers: 22, 23, 24
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Leather</h4><p>Leather is a hard-wearing material made of animal skin that is usually smooth. Depending on the leather type and how it is processed, the surface can feel soft (like suede) or rough. It can be dyed in any color but is often used in its original, natural colour. There are major differences in the origin and processing of leather, which may involve corresponding negative environmental impacts or be more animal-friendly and sustainably produced.</p>'
+    - 
+      name: Textile
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Textiles</h4><p>Textiles can either be made of natural or synthetic sources, or both. They are produced by spinning raw or/and recycled fibers. Textiles are then formed by weaving, knitting, crocheting, knotting, tatting, felting, bonding, or braiding these yarns together. As long as fibers are mixed and/or not ideally reused or disposed of, recycling processes are unfortunately (still) hardly applicable in a senseful way.</p>'
+- 
+  name: Problem
+  options:
+    - 
+      name: Style
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: "I don't know how to combine & style my clothes"
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: "I don't like it anymore"
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: It was a bad buy
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Out of fashion
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Break
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Condition
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Buttons are missing
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Clothes with moths
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Dirty or mouldy clothes/textiles
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Dirty shoes/ accessories
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: It was a present
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: "It's shrunk"
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Pilling
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: The color faded
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: The zip is broken
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: There are holes on the fabric
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: There are permanent stains
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: >
+        There are rips on the fabric/on the seam
+        line
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Break
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Fit
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Not the perfect fit
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Too big
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Too small
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+- 
+  name: Origin
+  options:
+    - 
+      name: Casual fashion
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Casual fashion</h4><p>E.g. Adidas, Stefanel, COS, Samsoe Samsoe, hess natur, Armedangels, ...</p>'
+    - 
+      name: Designer / luxury brands
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Designer / luxury brands</h4><p>E.g. Prada, Chanel, Armani, Balenciaga, ...</p>'
+    - 
+      name: Discounter fashion
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Discounter fashion</h4><p>E.g. kik, takko fashion, LIDL, ...</p>'
+    - 
+      name: Fast Fashion Retailer
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Fast Fashion Retailer</h4><p>E.g. H&amp;M, Zara,Primark, ...</p>'
+    - 
+      name: Premium fashion
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Premium fashion</h4><p>E.g. Calvin Klein, Hugo Boss, Joop!, See by Chloé, ...</p>'
+    - 
+      name: Second-Hand clothing
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Second-Hand clothing</h4><p>Used clothing pieces that have been preowned.</p>'
+    - 
+      name: Self-made clothing
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: "<h4>Self-made clothing</h4><p>Clothing that wasn't made in an industrial context. Instead it is 'homemade' and an unique piece.</p>"
+    - 
+      name: Vintage fashion
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Vintage fashion</h4><p>A style from the past (with characteristic details), that is of high quality and has continued charm. It has had one or more previous owners.</p>'
+    - 
+      name: "I don't know"
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: "<h4>I don't know</h4><p>No knowledge about the origin of the clothing.</p>"
+- 
+  name: Products
+  options:
+    - 
+      name: All kinds
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Accessories
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: 'Baby & Childrenswear'
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Bags
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Bridalwear
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Fancy dress costumes
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Household textiles
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Maternity clothing
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Menswear
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Occasional wear
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Shoes
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Swimwear
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Underwear/Dessous
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Womenswear
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Work uniforms
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Other textiles
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+- 
+  name: Features
+  options:
+    - 
+      name: CO2 calculator
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Check how much CO2 you can save loving your clothes longer</p>'
+    - 
+      name: Video tutorials
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Learn how to repair and upcycle your clothes</p>'
+    - 
+      name: Transport options
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>To bring your used clothes to the suggested locations</p>'
+    - 
+      name: Price chart
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Check the price for repairing &amp; upcycling services</p>'
+    - 
+      name: Booking system
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Book the services directly online</p>'
+    - 
+      name: User Account
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Setup your profile with personal preferences</p>'
+    - 
+      name: User Community
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>A user forum for direct exchange</p>'
+    - 
+      name: Information
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>More about textile reuse, repair and recycling</p>'
+- 
+  name: Units
+  options:
+    - 
+      name: Pieces
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>single pieces of clothing</p>'
+    - 
+      name: Bags
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>approx. 5 kg with 10-20 pieces</p>'
+    - 
+      name: Sacks
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>approx. 10 kg with 20-35 pieces</p>'

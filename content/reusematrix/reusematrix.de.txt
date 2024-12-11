@@ -1,0 +1,1018 @@
+Title: ReuseMatrix
+
+----
+
+Services:
+
+- 
+  name: Änderungsschneiderei
+- 
+  name: 'Leder- & Pelzarbeiten'
+- 
+  name: Taschenreparatur
+- 
+  name: Schuhmacherei
+- 
+  name: Schuhreinigung
+- 
+  name: Nachhaltige Textilreinigung
+- 
+  name: Modemarke mit Rücknahme Service
+- 
+  name: Modemarke mit Reparatur Service
+- 
+  name: Recycling/Upcycling Marke
+- 
+  name: Recycling/Upcycling Service
+- 
+  name: Recycling/Upcycling Workshops
+- 
+  name: 'Reparatur- & Nähcafé'
+- 
+  name: Second-Hand Shop
+- 
+  name: Vintage Shop
+- 
+  name: 'Flohmarkt & Pop-Up-Events'
+- 
+  name: Kleidertausch
+- 
+  name: Leihservices
+- 
+  name: Altkleidercontainer
+- 
+  name: 'Kleider- & Schuhspenden'
+- 
+  name: Sonstige Textilspenden
+- 
+  name: Reste-Materiallager
+- 
+  name: Textil-Recycling Betrieb
+- 
+  name: Kleiderschrank Styling
+
+----
+
+Offers:
+
+- 
+  name: Annahme von Kleidung
+- 
+  name: Annahme von Schuhen
+- 
+  name: Annahme von Reststoffen
+- 
+  name: Annahme von sonstigen Textilien
+- 
+  name: Annahme von Restzutaten
+- 
+  name: Annahme von Accessoires
+- 
+  name: Verkauf von Reststoffen
+- 
+  name: Verkauf von Restzutaten
+- 
+  name: Textilsortierung
+- 
+  name: Textilrecycling
+- 
+  name: Abverkauf/Export
+- 
+  name: Offene Werkstatt
+- 
+  name: Reparatur-Workshops
+- 
+  name: Upcycling-Workshops
+- 
+  name: Recycling-Workshops
+- 
+  name: Rücknahme Service
+- 
+  name: DIY-Sets/Tutorials
+- 
+  name: Änderungen
+- 
+  name: Reparaturen (Textilien)
+- 
+  name: Kunststopfen
+- 
+  name: 'Flicken & Patches'
+- 
+  name: Bestickungen
+- 
+  name: Lederreparatur
+- 
+  name: Lederreinigung
+- 
+  name: Lederänderung
+- 
+  name: Schuhreparatur
+- 
+  name: Nachfärben/Umfärben
+- 
+  name: Upcycling-Kollektionen
+- 
+  name: >
+    Maßgeschneiderte
+    Upcycling-Anfertigungen
+- 
+  name: Recycling von Alttextilien
+- 
+  name: Styling Tutorials
+- 
+  name: Persönliche Styling Beratung
+
+----
+
+Extras:
+
+- 
+  name: Gemeinnützige Zwecke
+- 
+  name: 'Für Kunst & Kultur Projekte'
+- 
+  name: Nur Annahme großer Textilmengen
+- 
+  name: 'Nur Bekleidung & Schuhe für Bedürftige'
+- 
+  name: Nur Annahme saisonaler Bekleidung
+
+----
+
+Optiongroup:
+
+- 
+  name: Service Category
+  options:
+    - 
+      name: Kleiderschrank neu stylen
+      optservices: Kleiderschrank Styling
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "22"
+      offers: ""
+      extras: ""
+    - 
+      name: Reparieren
+      optservices: 'Änderungsschneiderei, Leder- & Pelzarbeiten, Taschenreparatur, Schuhmacherei, Modemarke mit Reparatur Service, Reparatur- & Nähcafé, Recycling/Upcycling Service'
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 0, 1, 2, 3, 7, 11, 9
+      offers: ""
+      extras: ""
+    - 
+      name: Upcyceln
+      optservices: 'Leder- & Pelzarbeiten, Recycling/Upcycling Service, Recycling/Upcycling Workshops, Reparatur- & Nähcafé'
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 1, 9, 10, 11
+      offers: ""
+      extras: ""
+    - 
+      name: Verkaufen
+      optservices: 'Second-Hand Shop, Vintage Shop, Flohmarkt & Pop-Up-Events'
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 12, 13, 14
+      offers: ""
+      extras: ""
+    - 
+      name: Vermieten
+      optservices: Leihservices
+      optoffers: >
+        Annahme von Kleidung, Annahme von
+        Schuhen, Annahme von Accessoires
+      optextras: ""
+      servicetype: online
+      optdescription: ""
+      services: "16"
+      offers: ""
+      extras: ""
+    - 
+      name: Tauschen
+      optservices: Kleidertausch
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "15"
+      offers: ""
+      extras: ""
+    - 
+      name: Spenden
+      optservices: 'Altkleidercontainer, Kleider- & Schuhspenden, Sonstige Textilspenden, Reste-Materiallager, Textil-Recycling Betrieb'
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 17, 18, 19, 20, 21
+      offers: 0, 1, 2, 3, 4
+      extras: ""
+    - 
+      name: Waschen
+      optservices: >
+        Schuhreinigung, Nachhaltige
+        Textilreinigung
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 4, 5
+      offers: ""
+      extras: ""
+- 
+  name: Re-style my wardrobe
+  options:
+    - 
+      name: Mit Hilfe von Tutorials
+      optservices: Kleiderschrank Styling
+      optoffers: DIY-Sets/Tutorials
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "22"
+      offers: "16"
+      extras: ""
+    - 
+      name: Mit Hilfe eines Kleiderschrank-Stylists
+      optservices: Kleiderschrank Styling
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "22"
+      offers: ""
+      extras: ""
+- 
+  name: Repair
+  options:
+    - 
+      name: Mit Hilfe von Tutorials
+      optservices: 'Änderungsschneiderei, Leder- & Pelzarbeiten, Taschenreparatur, Schuhmacherei, Modemarke mit Reparatur Service, Reparatur- & Nähcafé, Recycling/Upcycling Service'
+      optoffers: DIY-Sets/Tutorials
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 0, 1, 2, 3, 7, 11, 9
+      offers: "16"
+      extras: ""
+    - 
+      name: In einem Näh-Café
+      optservices: 'Reparatur- & Nähcafé'
+      optoffers: Offene Werkstatt
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "11"
+      offers: "11"
+      extras: ""
+    - 
+      name: Innerhalb eines Workshops
+      optservices: 'Änderungsschneiderei, Reparatur- & Nähcafé, Recycling/Upcycling Service'
+      optoffers: Reparatur-Workshops
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 0, 11, 9
+      offers: "12"
+      extras: ""
+    - 
+      name: Durch Service-Angebote
+      optservices: 'Änderungsschneiderei, Leder- & Pelzarbeiten, Taschenreparatur, Schuhmacherei, Modemarke mit Reparatur Service, Reparatur- & Nähcafé'
+      optoffers: 'Änderungen, Kunststopfen, Flicken & Patches, Bestickungen, Lederreparatur, Lederänderung, Schuhreparatur, Reparaturen (Textilien)'
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 0, 1, 2, 3, 7, 11
+      offers: 17, 18, 19, 20, 21, 22, 24, 25
+      extras: ""
+- 
+  name: Upcycle
+  options:
+    - 
+      name: Mit Hilfe von Tutorials
+      optservices: 'Leder- & Pelzarbeiten, Recycling/Upcycling Service, Recycling/Upcycling Workshops, Reparatur- & Nähcafé'
+      optoffers: DIY-Sets/Tutorials
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 1, 9, 10, 11
+      offers: "16"
+      extras: ""
+    - 
+      name: In einem Näh-Café
+      optservices: 'Reparatur- & Nähcafé'
+      optoffers: Offene Werkstatt
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: "11"
+      offers: "11"
+      extras: ""
+    - 
+      name: ' Innerhalb eines Workshops'
+      optservices: 'Recycling/Upcycling Workshops, Reparatur- & Nähcafé'
+      optoffers: Upcycling-Workshops
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 10, 11
+      offers: "13"
+      extras: ""
+    - 
+      name: Durch Service-Angebote
+      optservices: 'Leder- & Pelzarbeiten, Recycling/Upcycling Service'
+      optoffers: >
+        Änderungen, Bestickungen,
+        Lederänderung, Nachfärben/Umfärben,
+        Maßgeschneiderte
+        Upcycling-Anfertigungen
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+      services: 1, 9
+      offers: 17, 21, 24, 26, 28
+      extras: ""
+- 
+  name: Sell
+  options:
+    - 
+      name: Online
+      optservices: Second-Hand Shop, Vintage Shop
+      optoffers: >
+        Annahme von Kleidung, Annahme von
+        Schuhen, Annahme von Reststoffen,
+        Annahme von sonstigen Textilien, Annahme
+        von Restzutaten
+      optextras: ""
+      servicetype: online
+      optdescription: ""
+    - 
+      name: Flohmarkt
+      optservices: 'Flohmarkt & Pop-Up-Events'
+      optoffers: ""
+      optextras: ""
+      servicetype: offline
+      optdescription: ""
+    - 
+      name: Second-Hand oder Vintage Shop
+      optservices: Second-Hand Shop, Vintage Shop
+      optoffers: >
+        Annahme von Kleidung, Annahme von
+        Schuhen, Annahme von Reststoffen,
+        Annahme von sonstigen Textilien, Annahme
+        von Restzutaten, Annahme von Accessoires
+      optextras: ""
+      servicetype: offline
+      optdescription: ""
+    - 
+      name: Online Plattform mit Abhol-Service
+      optservices: Second-Hand Shop, Vintage Shop
+      optoffers: ""
+      optextras: ""
+      servicetype: online
+      optdescription: ""
+- 
+  name: Rent out
+  options:
+    - 
+      name: Local rental shop
+      optservices: Leihservices
+      optoffers: >
+        Annahme von Kleidung, Annahme von
+        Schuhen, Annahme von Reststoffen,
+        Annahme von sonstigen Textilien, Annahme
+        von Restzutaten, Annahme von Accessoires
+      optextras: ""
+      servicetype: offline
+      optdescription: ""
+    - 
+      name: Online renting platform
+      optservices: Leihservices
+      optoffers: >
+        Annahme von Kleidung, Annahme von
+        Schuhen, Annahme von Reststoffen,
+        Annahme von sonstigen Textilien, Annahme
+        von Restzutaten, Annahme von Accessoires
+      optextras: ""
+      servicetype: online
+      optdescription: ""
+- 
+  name: Swap
+  options:
+    - 
+      name: Lokales Tausch-Event
+      optservices: Kleidertausch
+      optoffers: ""
+      optextras: ""
+      servicetype: offline
+      optdescription: ""
+    - 
+      name: Online Tausch-Service
+      optservices: Kleidertausch
+      optoffers: ""
+      optextras: ""
+      servicetype: online
+      optdescription: ""
+- 
+  name: Donate
+  options:
+    - 
+      name: Wohltätigkeitsorganisation / NGO
+      optservices: 'Altkleidercontainer, Kleider- & Schuhspenden, Textil-Recycling Betrieb'
+      optoffers: >
+        Annahme von Kleidung, Annahme von
+        Schuhen, Annahme von Reststoffen,
+        Annahme von sonstigen Textilien, Annahme
+        von Restzutaten, Annahme von Accessoires
+      optextras: Gemeinnützige Zwecke
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Second-Hand Laden
+      optservices: 'Altkleidercontainer, Kleider- & Schuhspenden, Sonstige Textilspenden, Reste-Materiallager, Textil-Recycling Betrieb'
+      optoffers: >
+        Annahme von Kleidung, Annahme von
+        Schuhen, Annahme von Reststoffen,
+        Annahme von sonstigen Textilien, Annahme
+        von Restzutaten, Annahme von Accessoires
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Upcycling-Designer oder -Projekt
+      optservices: Recycling/Upcycling Marke
+      optoffers: >
+        Annahme von Kleidung, Annahme von
+        Schuhen, Annahme von Reststoffen,
+        Annahme von sonstigen Textilien, Annahme
+        von Restzutaten, Annahme von Accessoires
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Materiallager
+      optservices: Reste-Materiallager
+      optoffers: >
+        Annahme von Kleidung, Annahme von
+        Schuhen, Annahme von Reststoffen,
+        Annahme von sonstigen Textilien, Annahme
+        von Restzutaten, Annahme von Accessoires
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Online-Plattform
+      optservices: ""
+      optoffers: >
+        Annahme von Kleidung, Annahme von
+        Schuhen, Annahme von Reststoffen,
+        Annahme von sonstigen Textilien, Annahme
+        von Restzutaten, Annahme von Accessoires
+      optextras: ""
+      servicetype: online
+      optdescription: ""
+    - 
+      name: 'Kunst- oder Kulturprojekte'
+      optservices: ""
+      optoffers: 0, 1, 2, 3, 4, 5
+      optextras: 'Für Kunst & Kultur Projekte'
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Altkleidercontainer
+      optservices: Altkleidercontainer
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+- 
+  name: Condition
+  options:
+    - 
+      name: Neu mit Etikett
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Neu mit Etikett</h4><p>Ein neues, nie getragenes Kleidungsstück in Top-Zustand, an dem das Etikett noch befestigt ist.</p>'
+    - 
+      name: Neu ohne Etikett
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Neu ohne Etikett</h4><p>Ein neues, nie getragenes Kleidungsstück in Top-Zustand, ohne Etikett.</p><p></p>'
+    - 
+      name: Sehr gut
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Sehr gut</h4><p>Ein selten getragenes Kleidungsstück mit normalen leichten Gebrauchsspuren, aber ansonsten in bestem Zustand.</p><p></p>'
+    - 
+      name: Gut
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Gut</h4><p>Ein gebrauchtes Kleidungsstück mit deutlicheren Gebrauchsspuren.</p><p></p>'
+    - 
+      name: Zufriedenstellend
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Zufriedenstellend</h4><p>Ein gebrauchtes Kleidungsstück mit offensichtlichen Gebrauchsspuren, die die Qualität deutlich mindern.</p><p></p>'
+    - 
+      name: Defekt oder reparabel
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Defekt oder reparabel</h4><p>Ein gebrauchtes Kleidungsstück mit offensichtlichen Gebrauchsspuren, die die Qualität deutlich mindern und daher repariert werden müssen.</p><p></p>'
+    - 
+      name: Schlecht oder schmutzig oder irreparabel
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Schlecht oder schmutzig oder irreparabel</h4><p>Ein gebrauchtes Kleidungsstück mit offensichtlichen Gebrauchsspuren, die die Qualität erheblich mindern und das somit in seinem derzeitigen Zustand nicht mehr tragbar ist.</p><p></p>'
+- 
+  name: Material
+  options:
+    - 
+      name: Leder
+      optservices: 'Leder- & Pelzarbeiten'
+      optoffers: 22, 23, 24
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Leder</h4><p>Leder ist ein robustes Material, das aus Tierhäuten hergestellt wird und oft glatt ist. Je nach Leder und Verarbeitung kann sich dieses jedoch auch aufgeraut oder weich anfühlen. Es kann in jede Farbe eingefärbt werden, wird jedoch auch oft in seiner Ursprungsfarbe genutzt. Es gibt große Unterschiede bei der Herkunft und Verarbeitung von Leder, die entsprechende Umweltbelastungen mit sich bringen oder artgerechter und nachhaltiger hergestellt sein können.</p>'
+    - 
+      name: Textil
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Textilien</h4><p>Textilien können entweder aus natürlichen oder synthetischen Rohstoffen oder aus beiden bestehen. Sie werden durch das Spinnen von Rohfasern und/oder recycelten Fasern hergestellt. Anschließend entstehen Textilien durch verschiedene Prozesse: Weben, Stricken, Häkeln, Knüpfen, Klöppeln, Filzen, Kleben oder Flechten. Solange Fasern gemischt auftreten und/oder nicht ideal weiterverwendet oder entsorgt werden, sind Recyclingprozesse leider (noch) kaum sinnvoll einsetzbar.</p>'
+- 
+  name: Problem
+  options:
+    - 
+      name: Style
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Fehlkauf
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Mag es nicht mehr
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Unmodisch
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: 'Unsicher wie zu stylen & kombinieren'
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Unerwünschtes Geschenk
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Break
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Condition
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Bleibende Flecken
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Eingelaufen
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Fehlende Knöpfe
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Kaputter Reißverschluss
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Löcher
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Motten
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Pilling
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Risse
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Schimmelig
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Schmutzig
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Verblasst
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Break
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Fit
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Passt nicht perfekt
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Zu groß
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Zu klein
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+- 
+  name: Origin
+  options:
+    - 
+      name: Aller Art Marken
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: 'Designer- / Luxusmarken'
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Designer- / Luxusmarken</h4><p>Bsp.: Prada, Chanel, Armani, Balenciaga, ...</p>'
+    - 
+      name: Premium Mode
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Premium Mode</h4><p>Bsp.: Calvin Klein, Hugo Boss, Joop!, See by Chloé</p>'
+    - 
+      name: Hochwertige Freizeitmode
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Hochwertige Freizeitmode</h4><p>Bsp.: Adidas, Stefanel, COS, Samsoe Samsoe, hess natur, Armedangels,...</p>'
+    - 
+      name: Fast Fashion Mode
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Fast Fashion Mode</h4><p>Bsp.: H&amp;M, Zara,Primark, ...</p>'
+    - 
+      name: Discounter Mode
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Discounter Mode</h4><p>Bsp.: kik, takko fashion, LIDL, ...</p>'
+    - 
+      name: Vintage Mode
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Vintage Mode</h4><p>Ein Kleidungsstück, das aus einer vergangenen Stil-Epoche (mit charakteristischen Details) stammt und von hoher Qualität und dauerhaftem Wert ist. Es hatte einen oder mehrere Vorbesitzer.</p>'
+    - 
+      name: Second-Hand Kleidung
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Second-Hand Kleidung</h4><p>Gebrauchtes Kleidungsstück, dass schon einmal im Besitz von jemand Anderem war.</p>'
+    - 
+      name: Selbstgemachte Kleidung
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Selbstgemachte Kleidung</h4><p>Das Kleidungsstück wurde nicht in einem industriellen Kontext hergestellt. Stattdessen ist es "hausgemacht" und ein Einzelstück.</p>'
+    - 
+      name: Ich weiß es nicht
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<h4>Ich weiß es nicht</h4><p>Keine Kenntnisse über die Herkunft des Kleidungsstücks.</p>'
+- 
+  name: Products
+  options:
+    - 
+      name: Alle
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Abendmode
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Accessoires
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Arbeitsbekleidung
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: 'Baby- und Kinderbekleidung'
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Badebekleidung
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Brautmode
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Damenbekleidung
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Freizeitbekleidung
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Haushaltstextilien
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Herrenbekleidung
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Kostüme
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Schuhe
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Schwangerschaftsmode
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Taschen
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Unterwäsche/Dessous
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+    - 
+      name: Sonstige Textilien
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: ""
+- 
+  name: Features
+  options:
+    - 
+      name: CO2-Rechner
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Finde heraus wie viel CO2 Du sparen kannst, je länger Du Deine Kleidung liebst </p>'
+    - 
+      name: Transport-Optionen
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Um Deine Altkleider zu vorgeschlagenen Orten zu bringen <br></p>'
+    - 
+      name: Preistabelle
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Preisübersicht für die verschiedenen Dienstleistungen</p>'
+    - 
+      name: Buchungssystem
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Buche Dienstleistungen direkt online</p>'
+    - 
+      name: Benutzerkonto
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Profileinrichtung nach persönlichen Präferenzen</p>'
+    - 
+      name: Community
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Ein Benutzerforum für den direkten Austausch</p>'
+    - 
+      name: Informationen
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Mehr über Wiederverwendung, Reparatur und Recycling von Textilien</p>'
+    - 
+      name: Video-Tutorials
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>Lerne wie Du Deine Kleidung reparieren und recyceln kannst</p>'
+- 
+  name: Units
+  options:
+    - 
+      name: Teile
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>einzelne Kleidungsstücke</p>'
+    - 
+      name: Beutel
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>ca. 5 kg / 10-20 Teile</p>'
+    - 
+      name: Sack
+      optservices: ""
+      optoffers: ""
+      optextras: ""
+      servicetype: ""
+      optdescription: '<p>ca. 10 kg / 20-35 Teile</p>'
+
+----
+
+Uuid: kxqwNqjPMQTDClGK

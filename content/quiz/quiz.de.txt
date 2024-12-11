@@ -1,0 +1,648 @@
+Title: Guide Quiz
+
+----
+
+Parts:
+
+- 
+  title: Guide – Part 1 of 3
+  description: >
+    Fangen wir mit ein paar Infos zu deiner
+    Kleidung an, die gerettet oder
+    aufgefrischt werden soll...
+  description2: ""
+  background: purple
+  questions:
+    - 
+      question: Um welche Art von Kleidung geht es?
+      shortname: product
+      description: Wähle soviele aus wie du magst.
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Accessories
+        - 
+          option: 'Baby & Childrenswear'
+        - 
+          option: Bags
+        - 
+          option: Bridalwear
+        - 
+          option: Fancy dress costumes
+        - 
+          option: Occasional wear
+        - 
+          option: Household textiles
+        - 
+          option: Menswear
+        - 
+          option: Maternity clothing
+        - 
+          option: Shoes
+        - 
+          option: Swimwear
+        - 
+          option: Underwear/Dessous
+        - 
+          option: Womenswear
+        - 
+          option: Work uniforms
+        - 
+          option: Other textiles
+      choices: Products
+    - 
+      question: >
+        Aus welchem Material sind sie
+        hergestellt?
+      shortname: material
+      description: Wähle eine oder beide aus.
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'true'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options: [ ]
+      choices: Material
+    - 
+      question: Wie viele Teile hast du davon?
+      shortname: amount
+      description: >
+        Bitte wähle eine Option, dann die
+        Anzahl aus.
+      fieldtype: unit
+      isrequired: 'true'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'true'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Pieces
+        - 
+          option: Bags
+        - 
+          option: Sacks
+      choices: Units
+    - 
+      question: Von welcher Art Marke?
+      shortname: origin
+      description: Wähle Zutreffende aus.
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'true'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: All kinds
+        - 
+          option: Designer / luxury brands
+        - 
+          option: Premium fashion
+        - 
+          option: Casual fashion
+        - 
+          option: Fast Fashion Retailer
+        - 
+          option: Discounter
+        - 
+          option: Vintage
+        - 
+          option: Second-hand
+        - 
+          option: Self-made
+        - 
+          option: "I don't know"
+      choices: Origin
+    - 
+      question: In welcher/welchen Größe/n?
+      shortname: size
+      description: Wähle Zutreffende aus.
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Alle Größen
+        - 
+          option: Frauen XXS-XL
+        - 
+          option: Frauen XXL-4XL
+        - 
+          option: Damenschuhe
+        - 
+          option: Break
+        - 
+          option: Männer XS-XL
+        - 
+          option: Männer XXL-8XL
+        - 
+          option: Herrenschuhe
+        - 
+          option: Break
+        - 
+          option: Baby 0-24 Monate
+        - 
+          option: Kinder 2-12 Jahre
+        - 
+          option: Teenager
+        - 
+          option: 'Baby- & Kinderschuhe'
+      choices: ""
+    - 
+      question: In welchem Zustand?
+      shortname: condition
+      description: >
+        Positioniere den Punkt auf der Skala,
+        der am ehesten den Zustand Deiner
+        Kleidung beschreibt.
+      fieldtype: range
+      isrequired: 'false'
+      hasglossary: 'true'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options: [ ]
+      choices: Condition
+    - 
+      question: >
+        Warum trägst Du diese Kleidung nicht
+        mehr?
+      shortname: problem
+      description: Wähle Zutreffende aus.
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Style
+        - 
+          option: Bad buy
+        - 
+          option: "I don't like it anymore"
+        - 
+          option: Out of fashion
+        - 
+          option: 'Unsure how to combine & style'
+        - 
+          option: Unwanted present
+        - 
+          option: Condition
+        - 
+          option: Broken zip
+        - 
+          option: Dirty
+        - 
+          option: Faded color
+        - 
+          option: Holes
+        - 
+          option: Missing buttons
+        - 
+          option: Moths
+        - 
+          option: Mouldy
+        - 
+          option: Permanent stains
+        - 
+          option: Pilling
+        - 
+          option: Rips
+        - 
+          option: Shrunk
+        - 
+          option: Fit
+        - 
+          option: Not the perfect fit
+        - 
+          option: Too big
+        - 
+          option: Too small
+        - 
+          option: Other
+      choices: Problem
+    - 
+      question: >
+        Wie möchtest Du die Lebensdauer Deiner
+        Kleidung verlängern?
+      shortname: serviceType
+      description: Wähle soviele aus wie du magst.
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Re-style my wardrobe
+        - 
+          option: Repair
+        - 
+          option: Upcycle
+        - 
+          option: Sell
+        - 
+          option: Rent out
+        - 
+          option: Swap
+        - 
+          option: Donate
+        - 
+          option: Clean
+        - 
+          option: "I don't know"
+      choices: Service Category
+    - 
+      question: >
+        Kleiderschrank neu stylen — Wie
+        möchtest du das machen?
+      shortname: re_style_my_wardrobe
+      description: Wähle soviele aus wie du magst.
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: Re-style my wardrobe
+      options: [ ]
+      choices: Re-style my wardrobe
+    - 
+      question: >
+        Reparieren — Wie möchtest du das
+        machen?
+      shortname: repair
+      description: Wähle soviele aus wie du magst.
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: Repair
+      options: [ ]
+      choices: Repair
+    - 
+      question: >
+        Upcyceln — Wie möchtest du das
+        machen?
+      shortname: upcycle
+      description: Wähle soviele aus wie du magst.
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: Upcycle
+      options: [ ]
+      choices: Upcycle
+    - 
+      question: >
+        Verkaufen — Wie möchtest du das
+        machen?
+      shortname: sell
+      description: Wähle soviele aus wie du magst.
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: ""
+      options: [ ]
+      choices: Sell
+    - 
+      question: >
+        Tauschen — Wie möchtest du das
+        machen?
+      shortname: swap
+      description: Wähle soviele aus wie du magst.
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: ""
+      options: [ ]
+      choices: Swap
+    - 
+      question: Spenden — Wie möchtest du das machen?
+      shortname: donate
+      description: Wähle soviele aus wie du magst.
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: ""
+      options: [ ]
+      choices: Donate
+    - 
+      question: >
+        In welchem Berliner Stadtteil möchtest
+        Du nach Angeboten suchen?
+      shortname: location
+      description: >
+        Wähle aktuellen Standort oder gebe
+        Postleitzahl oder Bezirk an
+      fieldtype: locationfinder
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options: [ ]
+      choices: ""
+- 
+  title: Guide – Part 2 of 3
+  description: >
+    Die nächsten fünf Fragen sind über
+    Dich :)
+  description2: '<p>Du bist nicht verpflichtet, sie zu beantworten, aber jede Information, die du uns geben kannst, würde uns wirklich helfen, die Altkleiderströme in Berlin zu verstehen.</p>'
+  background: blue
+  questions:
+    - 
+      question: Wie alt bist Du?
+      shortname: age
+      description: Positioniere den Punkt auf der Skala.
+      fieldtype: range
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Under 13
+        - 
+          option: '13 - 18'
+        - 
+          option: '19 - 25'
+        - 
+          option: '26 - 35'
+        - 
+          option: '36 - 45'
+        - 
+          option: '46 - 55'
+        - 
+          option: '56 - 65'
+        - 
+          option: Over 65
+      choices: ""
+    - 
+      question: >
+        Wieviel Geld gibst du vierteljählich
+        für Klamotten aus?
+      shortname: budget
+      description: Positioniere den Punkt auf der Skala.
+      fieldtype: range
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Weniger als 50€
+        - 
+          option: '50 € - 100 €'
+        - 
+          option: '100 € - 300 €'
+        - 
+          option: '300 € - 500 €'
+        - 
+          option: Mehr als 500€
+      choices: ""
+    - 
+      question: Identifizierst Du Dich als...
+      shortname: gender
+      description: ""
+      fieldtype: select
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Weiblich
+        - 
+          option: Männlich
+        - 
+          option: Nichtbinär
+        - 
+          option: Andere
+      choices: ""
+    - 
+      question: Wie ist Deine berufliche Situation?
+      shortname: occupation
+      description: ""
+      fieldtype: select
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Schüler/Student
+        - 
+          option: Universitätsstudent
+        - 
+          option: Vollzeitbeschäftigung
+        - 
+          option: Halbtagsbeschäftigung
+        - 
+          option: Haushälter
+        - 
+          option: Selbstständig
+        - 
+          option: Vorübergehend arbeitslos
+        - 
+          option: Rentner
+        - 
+          option: Andere
+      choices: ""
+    - 
+      question: >
+        Hast Du eines der folgenden Dinge
+        bereits mit deiner Kleidung getan oder
+        genutzt?
+      shortname: habits
+      description: Wähle soviele aus wie du magst.
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Abholservice für Kleidung
+        - 
+          option: Online gespendet
+        - 
+          option: Für wohltätige Zwecke gespendet
+        - 
+          option: 'Für Kunst & Kultur gespendet'
+        - 
+          option: Selbst repariert/geändert
+        - 
+          option: Durch Service repariert/geändert
+        - 
+          option: Schuhreinigung
+        - 
+          option: Schuhreparatur
+        - 
+          option: Second-Hand eingekauft
+        - 
+          option: Upgecyceltes eingekauft
+        - 
+          option: Auf Flohmarkt verkauft
+        - 
+          option: Online verkauft
+        - 
+          option: Tauschbörsen
+        - 
+          option: Selbst upgecycelt
+        - 
+          option: Durch Service upgecycelt
+        - 
+          option: Keine
+      choices: ""
+    - 
+      question: Wie häufig?
+      shortname: frequency
+      description: ""
+      fieldtype: select
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Weniger als einmal pro Jahr
+        - 
+          option: Einmal im Jahr
+        - 
+          option: Einmal alle 3 Monate
+        - 
+          option: Einmal im Monat
+        - 
+          option: Mehr als einmal im Monat
+      choices: ""
+- 
+  title: Guide – part 3 of 3
+  description: 'Wir sind fast fertig – nur noch zwei Fragen:'
+  description2: ""
+  background: orange
+  questions:
+    - 
+      question: >
+        Wie hast du von dem A-GAIN GUIDE
+        erfahren?
+      shortname: source
+      description: ""
+      fieldtype: select
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: 'Freunde & Familie'
+        - 
+          option: Aus der Presse
+        - 
+          option: Über Social Media
+        - 
+          option: Werbung
+        - 
+          option: Internet
+      choices: ""
+    - 
+      question: 'Als Teil der zukünftigen Entwicklungspläne für den A-GAIN GUIDE denken wir über neue Funktionen nach - was würde Dich interessieren?'
+      shortname: interests
+      description: >
+        Wähle soviele aus wie du magst. Hast du
+        noch mehr Ideen? Wir sind ganz Ohr!
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'true'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: CO2-Rechner
+        - 
+          option: Video-Tutorials
+        - 
+          option: Transport-Optionen
+        - 
+          option: Preistabelle
+        - 
+          option: Buchungssystem
+        - 
+          option: Benutzerkonto
+        - 
+          option: Community
+        - 
+          option: Informationen
+      choices: Features
+
+----
+
+Advicetext: <h3>Guter Rat</h3><p>Bringe Deine schmutzigen, schimmeligen oder von Motten befallenen Kleidungsstücke in eine Wäscherei oder wasche diese sorgfältig zu Hause, bevor Du sie spendest. Leider hat kaum ein Second-Hand-Laden oder eine Wohltätigkeitsorganisation die Kapazität, die Kleidung vor dem Verkauf zu waschen. Und seien wir mal ehrlich: Wer möchte schon schmutzige oder schimmelige Kleidung von unbekannten Spendern anfassen oder Motten in seinem Kleiderschrank haben? Wir können Dir leider keine Lösung für die Weiterverwendung von schmutzigen oder von Motten befallenen Kleidungsstücken anbieten. Doch wir empfehlen Dir, auf unserer Karte nach nachhaltigen Wäschereien in der Stadt zu schauen und dann hier nochmal den besten Weg zur Wiederverwendung für deine saubere Kleidung zu finden.</p>
+
+----
+
+Final: <p>Du bist fertig! Danke, dass Du unseren GUIDE benutzt hast.</p><p>Entdecke jetzt Deine Ergebnisse!</p>
+
+----
+
+Submittext: Show me results
+
+----
+
+Unlisted: 
+
+----
+
+Uuid: KGrpOmHQZeQJCLnQ

@@ -1,0 +1,643 @@
+Title: Guide Quiz
+
+----
+
+Parts:
+
+- 
+  title: Guide – Part 1 of 3
+  description: "Let's begin with some infos about your clothes that need a rescue or a refresh..."
+  description2: ""
+  background: purple
+  questions:
+    - 
+      question: What kind of clothes do you have?
+      shortname: product
+      description: Pick as many as you like
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: All kinds
+        - 
+          option: Accessories
+        - 
+          option: 'Baby & Childrenswear'
+        - 
+          option: Bags
+        - 
+          option: Bridalwear
+        - 
+          option: Fancy dress costumes
+        - 
+          option: Occasional wear
+        - 
+          option: Household textiles
+        - 
+          option: Menswear
+        - 
+          option: Maternity clothing
+        - 
+          option: Shoes
+        - 
+          option: Swimwear
+        - 
+          option: Underwear/Dessous
+        - 
+          option: Womenswear
+        - 
+          option: Work uniforms
+        - 
+          option: Other textiles
+      choices: Products
+    - 
+      question: What material are they made of?
+      shortname: material
+      description: Pick one or both.
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'true'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Leather
+        - 
+          option: Textile
+      choices: Material
+    - 
+      question: How many of these do you have?
+      shortname: amount
+      description: >
+        Please choose the quantity of one
+        option.
+      fieldtype: unit
+      isrequired: 'true'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'true'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Pieces
+        - 
+          option: Bags
+        - 
+          option: Sacks
+      choices: Units
+    - 
+      question: From which kind of brands?
+      shortname: origin
+      description: Choose which ones apply.
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'true'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options: [ ]
+      choices: Origin
+    - 
+      question: In which size/s?
+      shortname: size
+      description: Choose which ones apply.
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: All sizes
+        - 
+          option: Women XXS/32/4 to XL/42/14
+        - 
+          option: Women XXL/44/16 to 4XL
+        - 
+          option: Women shoes
+        - 
+          option: Break
+        - 
+          option: Men XS to XL
+        - 
+          option: Men XXL to 8XL
+        - 
+          option: Men shoes
+        - 
+          option: Break
+        - 
+          option: Baby 0-24 months
+        - 
+          option: Children 2-12 years
+        - 
+          option: Teenager
+        - 
+          option: 'Baby & Children shoes'
+      choices: ""
+    - 
+      question: In which condition?
+      shortname: condition
+      description: >
+        Position the button on the line choosing
+        the average condition of your clothes.
+      fieldtype: range
+      isrequired: 'false'
+      hasglossary: 'true'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options: [ ]
+      choices: Condition
+    - 
+      question: >
+        Why are you no longer using these
+        clothes?
+      shortname: problem
+      description: Select which ones apply.
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Style
+        - 
+          option: Bad buy
+        - 
+          option: "I don't like it anymore"
+        - 
+          option: Out of fashion
+        - 
+          option: 'Unsure how to combine & style'
+        - 
+          option: Unwanted present
+        - 
+          option: Condition
+        - 
+          option: Broken zip
+        - 
+          option: Dirty
+        - 
+          option: Faded color
+        - 
+          option: Holes
+        - 
+          option: Missing buttons
+        - 
+          option: Moths
+        - 
+          option: Mouldy
+        - 
+          option: Permanent stains
+        - 
+          option: Pilling
+        - 
+          option: Rips
+        - 
+          option: Shrunk
+        - 
+          option: Fit
+        - 
+          option: Not the perfect fit
+        - 
+          option: Too big
+        - 
+          option: Too small
+        - 
+          option: Other
+      choices: Problem
+    - 
+      question: >
+        How would you like to prolong the life
+        of your clothes?
+      shortname: serviceType
+      description: Pick as many as you like.
+      fieldtype: multiselect
+      isrequired: 'true'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Re-style my wardrobe
+        - 
+          option: Repair
+        - 
+          option: Upcycle
+        - 
+          option: Sell
+        - 
+          option: Rent out
+        - 
+          option: Swap
+        - 
+          option: Donate
+        - 
+          option: Clean
+        - 
+          option: "I don't know"
+      choices: ""
+    - 
+      question: >
+        Re-Style My Wardrobe — How would you
+        like to do it?
+      shortname: re_style_my_wardrobe
+      description: Pick as many as you like
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: Re-style my wardrobe
+      options: [ ]
+      choices: Re-style my wardrobe
+    - 
+      question: Repair — How would you like to do it?
+      shortname: repair
+      description: ""
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: Repair
+      options:
+        - 
+          option: With tutorials
+        - 
+          option: In a sewing café
+        - 
+          option: Through workshops
+        - 
+          option: Through a service or a designer
+      choices: Repair
+    - 
+      question: Upcycle — How would you like to do it?
+      shortname: upcycle
+      description: Pick as many as you like.
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: Upcycle
+      options:
+        - 
+          option: With tutorials
+        - 
+          option: In a sewing café
+        - 
+          option: Through workshops
+        - 
+          option: Through a service or a designer
+      choices: Upcycle
+    - 
+      question: Sell — How would you like to do it?
+      shortname: sell
+      description: Pick as many as you like.
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: Sell
+      options: [ ]
+      choices: Sell
+    - 
+      question: Swap — How would you like to do it?
+      shortname: swap
+      description: Pick as many as you like.
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: Swap
+      options:
+        - 
+          option: Local swapping event
+        - 
+          option: Online swapping services
+      choices: Swap
+    - 
+      question: Donate — How would you like to do it?
+      shortname: donate
+      description: Pick as many as you like.
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'true'
+      dependson: Donate
+      options:
+        - 
+          option: Charity / NGO
+        - 
+          option: Second-Hand shop
+        - 
+          option: Upcycling designer or project
+        - 
+          option: Material warehouse
+        - 
+          option: 'Clothes & costumes fund'
+        - 
+          option: Online platform
+        - 
+          option: Art or cultural projects
+      choices: Donate
+    - 
+      question: >
+        In which Berlin area do you want to look
+        for services?
+      shortname: location
+      description: ""
+      fieldtype: locationfinder
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options: [ ]
+      choices: ""
+- 
+  title: Guide – Part 2 of 3
+  description: The next five questions are about you :)
+  description2: '<p>You are not obliged to answer them, but any information you could provide, would really help us to understand the used clothing streams in Berlin.</p>'
+  background: blue
+  questions:
+    - 
+      question: How old are you?
+      shortname: age
+      description: Position the button on the line.
+      fieldtype: range
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Under 13
+        - 
+          option: '13 - 18'
+        - 
+          option: '19 - 25'
+        - 
+          option: '26 - 35'
+        - 
+          option: '36 - 45'
+        - 
+          option: '46 - 55'
+        - 
+          option: '56 - 65'
+        - 
+          option: Over 65
+      choices: ""
+    - 
+      question: >
+        How much do you spend on clothing and
+        shoes quarterly?
+      shortname: budget
+      description: ""
+      fieldtype: range
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Less than 50 €
+        - 
+          option: '50 € - 100 €'
+        - 
+          option: '100 € - 250 €'
+        - 
+          option: '250 € - 400 €'
+        - 
+          option: More than 400 €
+      choices: ""
+    - 
+      question: Do you identify yourself as...
+      shortname: gender
+      description: ""
+      fieldtype: select
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Female
+        - 
+          option: Male
+        - 
+          option: Non-binary
+        - 
+          option: Other
+      choices: ""
+    - 
+      question: What is your professional situation?
+      shortname: occupation
+      description: ""
+      fieldtype: select
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Pupil/scholar
+        - 
+          option: University student
+        - 
+          option: Full time job
+        - 
+          option: Part-time job
+        - 
+          option: Housekeeper
+        - 
+          option: Self-employed
+        - 
+          option: Temporarily unemployed
+        - 
+          option: Pensioner
+        - 
+          option: Other
+      choices: ""
+    - 
+      question: >
+        Have you already done any of the
+        following?
+      shortname: habits
+      description: ""
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Repaired or altered by myself
+        - 
+          option: Repaired or altered by tailor
+        - 
+          option: Upcycled myself
+        - 
+          option: Upcycled by service
+        - 
+          option: Shopped upcycled
+        - 
+          option: Sold on flea market
+        - 
+          option: Sold online
+        - 
+          option: Clothes pick-up service
+        - 
+          option: Shopped second hand
+        - 
+          option: Swapping events
+        - 
+          option: Donated to charity
+        - 
+          option: Donated online
+        - 
+          option: Donated to fundus or artists
+        - 
+          option: Shoe repair
+        - 
+          option: Shoe cleaning
+        - 
+          option: None of the above
+      choices: ""
+    - 
+      question: How often per year
+      shortname: frequency
+      description: ""
+      fieldtype: select
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: Less than once a year
+        - 
+          option: Once a year
+        - 
+          option: Once every 3 months
+        - 
+          option: Once a month
+        - 
+          option: More than once a month
+      choices: ""
+- 
+  title: Guide – part 3 of 3
+  description: >
+    We are almost done – just two more
+    questions left :)
+  description2: ""
+  background: orange
+  questions:
+    - 
+      question: How did you hear about the A-GAIN GUIDE?
+      shortname: source
+      description: ""
+      fieldtype: select
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'false'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: 'Friends & family'
+        - 
+          option: In the press
+        - 
+          option: Social media
+        - 
+          option: Advertisement
+        - 
+          option: Internet
+      choices: ""
+    - 
+      question: 'As part of future development plans for the A-GAIN GUIDE, we are considering new features - what would you like to see?'
+      shortname: interests
+      description: Pick as many as you like
+      fieldtype: multiselect
+      isrequired: 'false'
+      hasglossary: 'false'
+      glossary: ""
+      hasinlineglossary: 'true'
+      isconditional: 'false'
+      dependson: ""
+      options:
+        - 
+          option: CO2 calculator
+        - 
+          option: Video tutorials
+        - 
+          option: Transport options
+        - 
+          option: Price chart
+        - 
+          option: Book services online
+        - 
+          option: User account
+        - 
+          option: User community
+        - 
+          option: Information
+      choices: Features
+
+----
+
+Advicetext: <h3>Good advice</h3><p>Before donating clothing that is dirty or mouldy, or has moths, please take it to a laundry centre, or wash them at home. This is because the majority of second-hand shops or charities do not have the capacity to wash clothes before selling them/ handing them out. And let's be honest, who wants to touch dirty or mouldy clothes from unknown donors, or inherit clothes moths into their wardrobes?</p><p>We can't offer you a solution for dirty clothes or clothes with moths, but we kindly advise you to check on our map for sustainable laundry centres in town.</p>
+
+----
+
+Final: <p>You're done – thank you for using our guide!</p><p>Now explore your results!</p>
+
+----
+
+Submittext: Show me results
+
+----
+
+Unlisted: 
