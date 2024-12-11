@@ -1,0 +1,150 @@
+#home__cover {
+  background-image:url('/assets/images/bomberjacket__andreabos__2-b@2x.jpg');background-size:cover;
+  background-position: center;
+  height:90vh
+}
+
+#home__cover h2,
+#home__cover .topline {color:white!important;letter-spacing: .5px;}
+
+@media screen and (max-width: 375px) {
+  #home__cover {
+    background-image:url('/assets/images/bomberjacket__andreabos__mobile.jpg');
+  }
+}
+
+#home__map {
+  background-image: url(/assets/images/openstreetmap_leaflet_001-480@2x.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (min-width:800px) {
+  #home__map {
+    background-image: url(/assets/images/openstreetmap_leaflet_001.jpg);
+  }
+}
+
+@media screen and (min-width:800px) {
+  #home__map {
+    background-image: url(/assets/images/openstreetmap_leaflet_001.jpg);
+  }
+}
+
+@media screen and (min-width:1280px) {
+  #home__map {
+    background-image: url(/assets/images/openstreetmap_leaflet_001@2x.jpg);
+  }
+}
+
+.pattern-1 {
+  width: 10.44vw;
+  top:2vw;
+  right:2vw;
+}
+
+.pattern-2 {
+  width: 30.59vw;
+  top:2vw;
+  left:2vw;
+}
+
+.pattern-3 {
+  width: 17.68vw;
+  bottom:2vw;
+  right:2vw;
+}
+
+.sonne {
+  width: 13.44vw;
+}
+
+.fish {
+  width: 12.13vw;
+}
+
+@media screen and (max-width:800px) {
+
+  .pattern-1 {
+    width: 40.11vw;
+    position:static;
+  }
+
+  .fish {
+    width: 33.29vw;
+  }
+
+  .bubbles {
+    width: 33.64vw;
+  }
+
+  .sonne {
+    width: 51.63vw;
+  }
+
+  .thumbs {
+    width: 35.05vw;
+  }
+
+  #contact {background: rgb(254,196,141)}
+
+  #home__cover {
+    padding-top: calc(2 * var(--spacing-unit) + var(--element-height));
+    height: auto;
+    min-height:90vh;
+  }
+
+  #home__cover .topline {
+    top: calc(2 * var(--spacing-unit) + var(--element-height));
+  }
+}
+
+.bg--img.x7 {
+  width: 39.7%;
+  bottom:7.7vh;
+  right: 5vw;
+}
+
+.bg--img.bubbles {
+  background-image: url(/assets/icons/bubbles.svg);
+  background-position:left 12% bottom 12%;
+  background-repeat: no-repeat;
+  position:absolute;
+  height:20%;width:28%;background-size:contain;left:30px;bottom:50px;
+}
+
+.kreis-1::after {
+  background-image: url(/assets/icons/kreis-1.svg);
+  background-repeat: no-repeat;
+  top:0;
+  left:-.5em;
+  width:7em;
+}
+
+.kreis-2::after {
+  background-image: url(/assets/icons/kreis-2.svg);
+  background-repeat: no-repeat;
+  top: -.25em;
+  left: -.25em;
+  width: 3em;
+}
+
+.kreis-3::after {
+  background-image: url(/assets/icons/kreis-3.svg);
+  background-repeat: no-repeat;
+  top: -.1em;
+  left: -.35em;
+  width: 3em;
+}
+
+span.source {
+  display: block;
+  font-size: 14px;
+  opacity: 0.3;
+}
+
+#facts, #contact, #home__map, #home__guide {
+  padding-top: calc(2 * var(--spacing-unit));
+  padding-bottom: calc(2 * var(--spacing-unit));
+}

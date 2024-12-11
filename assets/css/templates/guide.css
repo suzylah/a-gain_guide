@@ -1,0 +1,67 @@
+.arrow-circle { width: 18.9vw; }
+
+.kreis-4 svg {
+    position: absolute;
+    top: -.4em;
+        left: -1em;
+    width: 9em;
+    height: calc(9em * 0.216);
+}
+
+.illu {margin: var(--spacing-unit) 0;}
+
+.btn-link.__dark {margin-bottom:1rem}
+
+#content > section:first-child {
+    background-image: url('/assets/icons/guide-start.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@media screen and (max-width:767px) and (orientation:portrait) {
+
+    #content > section:first-child {
+        background-image: url('/assets/icons/startscreen-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 75%;
+    }
+}
+
+#guide {
+    position:absolute;
+    width:100vw;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1001;
+
+    min-height: 100vh;
+    min-height:-webkit-fill-available;
+    min-height: -moz-available;
+    min-height: fill-available;
+}
+
+.actions.top-right {
+    z-index:10002;
+}
+
+#startguide {margin-top:var(--spacing-unit)}
+#startguide .btn-link {height: var(--element-height);}
+#startguide .info {
+    width:var(--element-height);
+    height:var(--element-height);
+    top:0;
+    left:10px;
+}
+
+@media screen and (max-width: 800px) {
+    .arrow-circle { width: 72.58vw; }
+
+    .main > .grid > .column:first-child {
+        padding-bottom: calc(4 * var(--spacing-unit) + var(--element-height));
+    }
+
+    .menu-toggle {width:62.5%}
+}

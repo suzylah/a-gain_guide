@@ -1,0 +1,48 @@
+.speechbubble {
+  width:21.5vw;
+  left:3vw;
+  top: calc(var(--spacing-unit) + var(--element-height));
+}
+
+.arrow-down {
+  width:4.89vw;
+  left: 65vw;
+  bottom: 0;
+}
+
+#contact__form {
+  background-image:url('/assets/images/contact@2x.jpg');
+  background-size:cover;
+  background-position: center;
+  padding: calc(3 * var(--spacing-unit)) 0 calc(2 * var(--spacing-unit));
+}
+  
+#contact__form .topline {color:white!important;letter-spacing: .5px;}
+
+.success h2 {
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 800px) {
+  .bg--img {position:static}
+  #contact__form {
+    background-image:url('/assets/images/contact__mobile.jpg');
+  }
+
+  .envelope, .speechbubble {width:48vw}
+
+  .main > .grid > .column:first-child {
+    padding-bottom: calc(4 * var(--spacing-unit) + var(--element-height));
+    }
+  }
+} 
+
+
+@media screen and (min-width:1024px) {
+  #mc_embed_signup_scroll {display: flex;}
+  #mc_embed_signup_scroll .field {
+      margin-bottom: 0;
+      margin-right: var(--spacing-unit);
+  }
+}

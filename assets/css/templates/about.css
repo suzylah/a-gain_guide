@@ -1,0 +1,40 @@
+#about__cover {
+  background-image:url('/assets/images/About-1@2x.jpg');
+  background-size:cover;
+  background-position: center;
+  padding-bottom: calc(2 * var(--spacing-unit));
+}
+
+#about__cover h2,
+#about__cover .topline {color:white!important;letter-spacing: .5px;}
+
+@media screen and (max-width: 375px) {
+  #about__cover {
+    background-image:url('/assets/images/About-1__mobile.jpg');
+  }
+}
+
+.spiral {
+  width: 28vw;
+  top:1em;
+  right: 11vw;
+}
+
+.arrow-down {
+  width: 4.83vw;
+  bottom:6vh;
+  left: 14vw;
+}
+
+.arrow-right {
+  width: 17vw;
+  margin-left:45%;
+}
+
+@media screen and (max-width: 480px) {
+  /* 15 blocks currently, if blocks are added this hotfix stops working correctly */
+  .layout .column:nth-child(12) {order: 1}
+  .layout .column:nth-child(13) {order: 0}
+  .layout .column:nth-child(14),
+  .layout .column:nth-child(15) {order: 2}
+}

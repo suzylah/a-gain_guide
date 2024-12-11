@@ -1,0 +1,18 @@
+
+.layout.grid { --gutter: 0 }
+.layout.grid > .column[style*="--columns:6"] {height:auto}
+
+p {
+    font-weight: var(--font-weight-thin);
+    font-size:14px;
+    margin-bottom: 1.25rem;
+    line-height:1.5em;
+}
+
+p>strong {
+    text-transform:uppercase;
+}
+
+.layout .column:first-child {
+    padding-top: calc(var(--element-height) + var(--spacing-unit));
+}
