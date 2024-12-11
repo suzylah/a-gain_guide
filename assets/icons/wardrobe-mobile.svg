@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="251.735" height="358.591" viewBox="0 0 251.735 358.591">
+    <g data-name="Gruppe 2223">
+        <path data-name="Pfad 1803" d="M0 17.493 13.426 302.04h201.491L224.011 0z" transform="rotate(-5.13 237.959 -2.105)" style="stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;fill:none"/>
+        <path data-name="Pfad 1804" d="M33.066 0v37.256h-8.5L17.617 18.23S1.9 12.654 0 0" transform="rotate(-5.13 3616.823 -2230.893)" style="stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;fill:none"/>
+        <path data-name="Pfad 1805" d="M0 0v37.256h8.5l6.949-19.026S31.166 12.654 33.066 0" transform="rotate(-5.13 3696.578 -302.065)" style="stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;fill:none"/>
+        <path data-name="Pfad 1806" d="m0 0 4.052 293.188" transform="rotate(-5.13 290.526 -1291.436)" style="stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;fill:none"/>
+        <g data-name="Ellipse 139" transform="rotate(-5.13 2208.076 -1121.146)" style="stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;fill:none">
+            <ellipse cx="6.005" cy="5.004" rx="6.005" ry="5.004" style="stroke:none"/>
+            <ellipse cx="6.005" cy="5.004" rx="5.005" ry="4.004" style="fill:none"/>
+        </g>
+        <g data-name="Ellipse 140" transform="rotate(-5.13 2163.705 -1498.841)" style="stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;fill:none">
+            <ellipse cx="6.005" cy="5.004" rx="6.005" ry="5.004" style="stroke:none"/>
+            <ellipse cx="6.005" cy="5.004" rx="5.005" ry="4.004" style="fill:none"/>
+        </g>
+    </g>
+</svg>

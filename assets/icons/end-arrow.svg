@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272.497" height="195.513" viewBox="0 0 272.497 195.513">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rechteck_469" data-name="Rechteck 469" style="fill:none;stroke:#fff;stroke-width:2px;stroke-dasharray:6 4" d="M0 0h101.288v253.189H0z"/>
+        </clipPath>
+        <style>
+            .cls-3{fill:none;stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Gruppe_2013" data-name="Gruppe 2013" transform="scale(-1) rotate(66 129.874 -129.41)">
+        <g id="Gruppe_2011" data-name="Gruppe 2011" style="clip-path:url(#clip-path)">
+            <path id="Pfad_1690" data-name="Pfad 1690" class="cls-3" d="M54.164 229.129C28.794 214.9 13.64 194.475 6.455 173.512s-12.22-40.4-11.071-61.836C-2.6 74.038 10.726 27.44 39.837-5.407" transform="translate(19.932 23.326)"/>
+            <path id="Pfad_1691" data-name="Pfad 1691" class="cls-3" d="M17.269 17.769c10.3-7.258 52.3-20.185 53.41-20.367.331.564 9.63 31.6 14.05 45.756" transform="translate(-1.963 6.36)"/>
+        </g>
+    </g>
+</svg>

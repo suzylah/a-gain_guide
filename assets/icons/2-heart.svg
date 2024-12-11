@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="973.055" height="803.327" viewBox="0 0 973.055 803.327">
+    <defs>
+        <clipPath id="rb4muztd9a">
+            <path data-name="Rechteck 473" style="fill:none;stroke:#fff;stroke-width:2px;stroke-dasharray:6 4" d="M0 0h973.055v803.327H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Gruppe 2090">
+        <g data-name="Gruppe 2024">
+            <g data-name="Gruppe 2023" style="clip-path:url(#rb4muztd9a)">
+                <path data-name="Pfad 1700" d="M344.232 715.7a558.264 558.264 0 0 1-61.766-39.166C153.621 583.347 57.984 445.182 16.137 291.773 5 250.949-2.47 208.485 1.645 166.37S22.423 82.256 53.577 53.619c24.254-22.294 55.735-35.3 87.692-43.3C263.642-20.33 401.47 22.329 485.137 116.742" transform="translate(-.044 -.044)" style="stroke-miterlimit:10;fill:none;stroke:#fff;stroke-width:2px;stroke-dasharray:6 4"/>
+                <path data-name="Pfad 1701" d="M517.755 120.807a581.632 581.632 0 0 1 149.94-75.58c37.1-12.369 75.8-21.015 114.9-21.016a268.268 268.268 0 0 1 170.176 61.638c18.02 15.025 34.282 32.815 44 54.168 21.3 46.794 8 101.852-11.508 149.426-50.704 123.685-140.502 228.625-244.906 312.107s-223.388 146.82-344.45 203.508" transform="translate(-35.053 -2.144)" style="stroke-miterlimit:10;fill:none;stroke:#fff;stroke-width:2px;stroke-dasharray:6 4"/>
+            </g>
+        </g>
+    </g>
+</svg>

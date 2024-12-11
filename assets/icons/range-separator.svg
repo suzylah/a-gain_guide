@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2px" height="10px" viewBox="0 0 2 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Line</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Artboard" transform="translate(-4.000000, 0.000000)" stroke="#2B2E34">
+            <line x1="5" y1="-2.13717932e-15" x2="5" y2="10" id="Line"></line>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="375.115" height="456.61" viewBox="0 0 375.115 456.61">
+    <defs>
+        <clipPath id="1tw9abunca">
+            <path data-name="Rechteck 475" style="stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;fill:none" d="M0 0h151.447v456.61H0z"/>
+        </clipPath>
+        <clipPath id="kw7if7mhwb">
+            <path style="fill:none" d="M525 0h375.115v45.913H525z"/>
+        </clipPath>
+        <clipPath id="sk43acfxuc">
+            <path data-name="Rechteck 480" style="stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;fill:none" d="M0 0h1427.115v45.913H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Gruppe 2093">
+        <g data-name="Gruppe 2028">
+            <g data-name="Gruppe 2027" style="clip-path:url(#1tw9abunca)" transform="translate(75.115)">
+                <path data-name="Pfad 1706" d="M246.083.282a4211.342 4211.342 0 0 0-27.531 456.5" transform="translate(-94.918 -.173)" style="stroke-miterlimit:10;stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;fill:none"/>
+                <path data-name="Pfad 1707" d="M151.773.282C115.459 36.435 57.423 59.061 1.4 80.462l146.224 21.567" transform="translate(-.608 -.173)" style="stroke-miterlimit:10;stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;fill:none"/>
+            </g>
+        </g>
+        <g data-name="Bildlaufgruppe 2" transform="translate(-525 406.501)" style="isolation:isolate;clip-path:url(#kw7if7mhwb)">
+            <g data-name="Gruppe 2039">
+                <g data-name="Gruppe 2038" style="clip-path:url(#sk43acfxuc)">
+                    <path data-name="Pfad 1721" d="M.013 5.5a12763.029 12763.029 0 0 1 1427.065 39.91" transform="translate(-.001)" style="stroke-miterlimit:10;stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;fill:none"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

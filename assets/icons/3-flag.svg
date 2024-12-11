@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1427.115" height="808.883" viewBox="0 0 1427.115 808.883">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rechteck_475" data-name="Rechteck 475" class="cls-1" d="M0 0h268.288v808.883H0z"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Rechteck_480" data-name="Rechteck 480" class="cls-1" d="M0 0h1427.115v45.913H0z"/>
+        </clipPath>
+        <style>
+            .cls-1,.cls-3{fill:none;stroke:#fff;stroke-width:2px;stroke-dasharray:6 4}.cls-3{stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Gruppe_2060" data-name="Gruppe 2060" transform="translate(-12.885 -79.39)">
+        <g id="Gruppe_2028" data-name="Gruppe 2028" transform="translate(524 79.39)">
+            <g id="Gruppe_2027" data-name="Gruppe 2027" style="clip-path:url(#clip-path)">
+                <path id="Pfad_1706" data-name="Pfad 1706" class="cls-3" d="M267.324.282a7460.381 7460.381 0 0 0-48.772 808.689" transform="translate(.466 -.089)"/>
+                <path id="Pfad_1707" data-name="Pfad 1707" class="cls-3" d="M267.786.282C203.456 64.328 100.645 104.409 1.4 142.321l259.035 38.206" transform="translate(.003 -.089)"/>
+            </g>
+        </g>
+        <g id="Gruppe_2039" data-name="Gruppe 2039" transform="translate(12.885 770.891)">
+            <g id="Gruppe_2038" data-name="Gruppe 2038" style="clip-path:url(#clip-path-2)">
+                <path id="Pfad_1721" data-name="Pfad 1721" class="cls-3" d="M.013 5.5a12763.029 12763.029 0 0 1 1427.065 39.91" transform="translate(-.001)"/>
+            </g>
+        </g>
+    </g>
+</svg>

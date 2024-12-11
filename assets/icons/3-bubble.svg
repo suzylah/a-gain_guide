@@ -1,0 +1,14 @@
+<svg id="Gruppe_2030" data-name="Gruppe 2030" xmlns="http://www.w3.org/2000/svg" width="874.417" height="541.104" viewBox="0 0 874.417 541.104">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rechteck_476" data-name="Rechteck 476" style="fill:none;stroke:#fff;stroke-width:2px;stroke-dasharray:6 4" d="M0 0h874.417v541.104H0z"/>
+        </clipPath>
+        <style>
+            .cls-3{fill:none;stroke:#fff;stroke-width:2px;stroke-dasharray:6 4;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="Gruppe_2029" data-name="Gruppe 2029" style="clip-path:url(#clip-path)">
+        <path id="Pfad_1708" data-name="Pfad 1708" class="cls-3" d="M656.194 24.767C538.91-3.254 416.366-5.137 296.684 9.59c-63.358 7.8-127.449 20.665-182.9 52.292S12.188 146.616 2.339 209.688C-.677 229-.227 249.062 5.513 267.751c9.652 31.429 33.416 56.689 59.68 76.466 77.614 58.443 178.073 76.5 274.974 83.558a1452.023 1452.023 0 0 0 263.4-4.384c57.443-6.292 115.614-16.567 166.7-43.573C813.434 357 851.483 320.69 866.41 274.2c7.522-23.423 8.927-48.456 7.247-73-1.386-20.254-4.939-40.7-14-58.864-12.227-24.515-33.63-43.236-56.282-58.648a356.987 356.987 0 0 0-119.249-52.337" transform="translate(-.188 -.188)"/>
+        <path id="Pfad_1709" data-name="Pfad 1709" class="cls-3" d="M374.886 640.386c-5.067 47.561-17.569 93.972-30.026 140.151a646.984 646.984 0 0 0 99.761-109.755" transform="translate(-129.43 -240.345)"/>
+    </g>
+</svg>
