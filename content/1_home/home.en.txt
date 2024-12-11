@@ -1,0 +1,20 @@
+Title: Home
+
+----
+
+Slider:
+
+- 
+  text: >
+    Hello A–GAIN! Have you already
+    revalued your clothes today?
+- 
+  text: >
+    The A–GAIN GUIDE shows you new ways to
+    repurpose your used clothing.
+- 
+  text: 'Use the MAP to find repair shops, second hand stores, upcycling workshops & designers, as well as clothing containers in Berlin!'
+
+----
+
+Layout: [{}]

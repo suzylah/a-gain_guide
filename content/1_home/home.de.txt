@@ -1,0 +1,20 @@
+Title: Home
+
+----
+
+Slider:
+
+- 
+  text: >
+    Hello A–GAIN! Heute schon Deine
+    Kleidung aufgewertet?
+- 
+  text: >
+    Der A–GAIN GUIDE zeigt Dir neue Wege
+    für Deine gebrauchte Kleidung.
+- 
+  text: 'Nutze die MAP und finde Repair Shops, Second-Hand Stores, Upcycling Designer & Workshops sowie Kleidercontainer in Berlin!'
+
+----
+
+Layout: [{}]
